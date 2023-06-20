@@ -7,19 +7,19 @@ app.config["DEBUG"] = True
 CORS(app)
 
 all_mems = [
-    { 'id': 11, 'name': 'London', 'image': '../assets/seo.jpg', 'additionalinfo': 'What 4 Party' },
-    { 'id': 21, 'name': 'Paris', 'image': '../assets/callcenter.jpg', 'latitude': 48.8583, 'longitude': 2.2944, 'additionalinfo': 'One Night in Paris' },
-    { 'id': 31, 'name': 'Seuol', 'image': '../assets/cyberspace.jpg', 'latitude': 37.5665, 'longitude': 126.9779, 'additionalinfo': 'What happens in Munich Stay in Seoul' },
-    { 'id': 41, 'name': 'Göbekli Tepe','image': '../assets/people.jpg', 'latitude': 34.5337, 'longitude': 43.4837, 'additionalinfo': 'Harran-Ebene (Mesopotamien)' },
-    { 'id': 51, 'name': 'Saint Tropez','image': '../assets/sayhi.jpeg', 'latitude': 43.2676, 'longitude': 6.6407, 'additionalinfo': 'La Citadelle' },
-    { 'id': 61, 'name': 'Greenwich','image': '../assets/greenwich.jpeg', 'latitude': 51.482577, 'longitude': -0.0076, 'additionalinfo': 'Null Meridian' },
-    { 'id': 71, 'name': 'Osterinseln','image': '../assets/easterisland.jpg', 'latitude': -27.0889, 'longitude': -109.3545, 'additionalinfo': 'So many people' },
-    { 'id': 81, 'name': 'Groom Lake','image': '../assets/service.jpg', 'latitude': 37.2766, 'longitude': -115.7989, 'additionalinfo': 'Tikaboo Peak' },
-    { 'id': 91, 'name': 'Gizeh','image': '../assets/giza.JPG', 'latitude': 29.977296, 'longitude': 31.1324, 'additionalinfo': 'As above, so below and also it looks like Speed of Light' },
-    { 'id': 13, 'name': 'Sacsayhuamán, Cusco, Perú','image': '../assets/sacsay.JPG', 'latitude': -13.5098, 'longitude': -71.9816, 'additionalinfo': 'Sunny Fiesta on Juny the 24th.' },
-    { 'id': 12, 'name': 'Nazca','image': '../assets/nazca.jpg', 'latitude': -14.7390, 'longitude': -75.1300, 'additionalinfo': 'Painting' },
-    { 'id': 16, 'name': 'Teotihuacán','image': '../assets/laluna.jpg', 'latitude': 19.6897, 'longitude': -98.8608, 'additionalinfo': 'The Pyramid of the Sun and the "Avenue of the Dead" in Teotihuacán seen from the Pyramid of the Moon' },
-    { 'id': 18, 'name': 'Baalbek, Lebanon','image': '../assets/baalbek.jpg', 'latitude': 34.0046, 'longitude': 36.2110, 'additionalinfo': 'Juniper, as many Megalith blocks as the eye can see' },
+    { 'id': 11, 'name': 'Member A', 'image': '../assets/1.jpg', 'additionalinfo': 'hereiam@gmail.com' },
+    { 'id': 21, 'name': 'Member B', 'image': '../assets/2.jpg', 'additionalinfo': '+ 49 160 1234567' },
+    { 'id': 31, 'name': 'Member C', 'image': '../assets/3.jpg', 'additionalinfo': 'Dev Ops' },
+    { 'id': 41, 'name': 'Member D','image': '../assets/4.jpg', 'additionalinfo': 'Software Developer' },
+    { 'id': 51, 'name': 'Member E','image': '../assets/5.jpg', 'additionalinfo': 'Admin' },
+    { 'id': 61, 'name': 'Member F','image': '../assets/6.jpg', 'additionalinfo': 'Scrum Master' },
+    { 'id': 71, 'name': 'Member G','image': '../assets/7.jpg', 'additionalinfo': 'Linux Professional' },
+    { 'id': 81, 'name': 'Member H','image': '../assets/8.jpg', 'additionalinfo': 'Available' },
+    { 'id': 91, 'name': 'Member I','image': '../assets/9.jpg', 'additionalinfo': 'Meeting due to 12p.m.' },
+    { 'id': 13, 'name': 'Member J','image': '../assets/10.jpg', 'additionalinfo': 'not Available' },
+    { 'id': 12, 'name': 'Member K','image': '../assets/11.jpg', 'additionalinfo': 'Painting' },
+    { 'id': 16, 'name': 'Member L','image': '../assets/12.jpg', 'additionalinfo': 'Terraform' },
+    { 'id': 18, 'name': 'Member M','image': '../assets/13.jpg', 'additionalinfo': 'Ansible' },
 ]
 
 
